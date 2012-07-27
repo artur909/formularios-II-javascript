@@ -17,4 +17,10 @@ Para determinar el `String` seleccionado:
 
 Es decir que el objeto `Select1` tiene otra propiedad llamada `options`, a la que accedemos por medio de un Subindice, al `String` de una determinada posicion.
 
-Hay problemas en los que solamente necesitamos el String alamacenado en el objeto `SELECT` y no el valor asociado (no es obligatorio asociar un valor a cada `String`)
+Hay problemas en los que solamente necesitamos el String alamacenado en el objeto `SELECT` y no el valor asociado (no es obligatorio asociar un valor a cada `String`).
+
+Y por ultimo con esta expresion accedemos al valor asociado al string:
+
+	document.form1.select1.options[document.form1.select1.selectedIndex].value
+
+Un ejemplo que muestra el empleo de un control `SELECT` es: eje1.html
